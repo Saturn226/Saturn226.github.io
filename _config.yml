@@ -1,0 +1,21 @@
+# Site settings
+title: My Programming Notebook
+header-img: img/home-bg.png
+email: serenehopes@gmail.com
+copyright_name: Saturn226
+description: > # this means to ignore newlines until "baseurl:"
+  By: Ashley M.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: Saturn226
+github_username:  Saturn226
+learn_profile: Saturn226
+email_username: serenehopes@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
