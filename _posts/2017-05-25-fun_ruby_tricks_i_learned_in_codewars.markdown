@@ -8,7 +8,7 @@ date:   2017-05-25 16:18:59 -0400
 I have been playing around with codewars a lot lately. I like working with code challenges they are pretty fun. One thing that is great about playing with codewars is that I got to use a lot of tools and methods I would have never else thought of for example
 
 
-## delete
+##delete
 This comes in handy for challenges that ask you to remove a series of elements from a string.
 For example, if you need to remove some vowels from a string
 ```
