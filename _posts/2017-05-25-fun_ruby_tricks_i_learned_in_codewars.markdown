@@ -43,7 +43,7 @@ This is a great way to split up some data. It accepts a block and creates 2 arra
 ```
 
 
-# even? odd?
+## even? odd?
 Which reminds me, I have a tendency to forget about these ruby methods. They work just as you expect. The question mark signify's this method returns some sort of boolean.
 
 ```
