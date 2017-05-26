@@ -44,6 +44,7 @@ This is a great way to split up some data. It accepts a block and creates 2 arra
 
 
 **even? odd?**
+
 Which reminds me, I have a tendency to forget about these ruby methods. They work just as you expect. The question mark signify's this method returns some sort of boolean.
 
 ```
@@ -57,6 +58,7 @@ Which reminds me, I have a tendency to forget about these ruby methods. They wor
 Its a shame how often I resort to modulo to check for evens and odds knowing this exists
 
 **chars**
+
 chars will split a string into an array of chars
 
 ```
