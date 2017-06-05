@@ -1,0 +1,74 @@
+---
+layout: post
+title:  Ruby Self 
+date:   2017-06-05 03:37:20 +0000
+---
+
+
+The keyword `self` in ruby gives you access to the current object
+
+**Class**
+
+In the context of a class `self` refers to the current class
+
+```
+class Dog
+  p self # the Dog class
+end
+```
+
+Defining a method on self creates a class method
+
+**Instance Method**
+
+Within an instance method self refers to the instance itself
+```
+class Dog
+  def bark
+    self
+  end
+end
+ 
+p Dog.new.bark # an instance of the Dog class
+```
+
+**Implicit Self**
+When you call a method without an explicit recieving object, the method is called implicitely on self. In plain english this means that if there is nothing on the left hand side of the function call then the left hand side is self. 
+
+```
+class Person
+  attr_reader :first_name, :last_name
+ 
+  def initialize(first_name, last_name)
+    @first_name = first_name
+    @last_name = last_name
+  end
+ 
+  def full_name
+    "#{first_name} #{last_name}" #implied self. Instance of person
+  end
+end
+```
+
+
+**Top Level**
+
+At the top level self refers to the main ruby object
+
+```
+p self # the main object
+```
+
+**Modules**
+
+
+When self is used **within an instance method of a module** it refers to the **instance of the class in which the module is included**
+
+When you see self **outside of an instance method inside a module** it **refers to the module**
+
+
+If you were wondering what `p` by itself is. Its a kernel method that behaves similar to obj.inspect. Try calling it on some objects :)
+
+
+
+
