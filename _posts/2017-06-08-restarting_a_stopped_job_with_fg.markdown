@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Restarting a stopped job with FG"
-date:   2017-06-08 16:35:28 +0000
+date:   2017-06-08 12:35:29 -0400
 ---
 
 
@@ -23,7 +23,7 @@ There is an easy fix for that and that fix is `fg` . By typing `fg` in your term
 [1]+  Stopped                 rails s
 ```
 
-This is what it looks like when you stop a job with Ctrl+Z
+This is what it looks like when you stop a job with Ctrl+Z your port is now occupied and you can't run another rails server.
 
 Now for `fg`
 
