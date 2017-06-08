@@ -23,7 +23,25 @@ There is an easy fix for that and that fix is `fg` . By typing `fg` in your term
 [1]+  Stopped                 rails s
 ```
 
-This is what it looks like when you stop a job with Ctrl+Z your port is now occupied and you can't run another rails server.
+This is what it looks like when you stop a job with Ctrl+Z your port is now occupied and you can't run another 
+rails server.
+
+
+```
+// ♥ rails s
+=> Booting WEBrick
+=> Rails 4.2.6 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+A server is already running. Check /Users/Serenity/Development/code/ashley-angular-project/tmp/pids/server.pid.
+Exiting
+```
+
+Notice if we try to load the server again it claims a server is still running
+
+
+
+
 
 Now for `fg`
 
@@ -50,6 +68,8 @@ Now we can close the server down properly with Ctrl+ C
 [2017-06-08 12:27:30] INFO  WEBrick::HTTPServer#start done.
 Exiting
 ```
+
+`fg` followed by `Ctrl + C` is a real quick and easy way to immediately fix the `Ctrl + Z` mistake. Hope this helps.
 
 
 
