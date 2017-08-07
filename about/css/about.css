@@ -1,0 +1,43 @@
+header#name_box{
+    background-color: rgb(42, 181, 115);
+    color: white;
+}
+
+i.fa_skill{
+    font-size: 50px;
+}
+
+i.fa_cap{
+    font-size: 200px;
+}
+
+
+.project_image{
+    min-height: 200px;
+    max-height: 200;
+    /* width: 500px; */
+}
+
+.skills_icon{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+body{
+    font-family: "Helvetica"
+}
+
+
+p{
+    font-size: 17px;
+    /* font-weight: 500px; */
+    line-height: 31px;
+}
+
+h1{
+    font-size: 37px;
+    line-height: 44px;
+}
+/* h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+} */
