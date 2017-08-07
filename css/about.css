@@ -6,3 +6,19 @@ header#name_box{
 i.fa_skill{
     font-size: 50px;
 }
+
+i.fa_cap{
+    font-size: 200px;
+}
+
+
+.project_image{
+    min-height: 300px;
+    max-height: 300;
+    /* width: 500px; */
+}
+
+.skills_icon{
+    max-height: 100px;
+    max-width: 100px;
+}
