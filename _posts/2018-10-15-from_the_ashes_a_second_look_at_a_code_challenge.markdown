@@ -84,10 +84,10 @@ First off I had a little help from my [codepen.](https://codepen.io/Saturn226/)
 My codepen is like my little scratch pad. I had been practicing a lot of react snippets lately. Mostly I have been experimenting with styled-components and css-grid which I used in the new project.
 
 I created 3 components. A search component. A repos component and a results page component.
-
-```import React, {Component} from "react";
+```
+import React, {Component} from "react";
 import styled from "styled-components"
-import {ResultsPageComponent} from "./resultPageComponent.js"
+import {ResultsPageComponent} from "./resultPageComponent"
 
 export class SearchPageComponent extends Component {
 
@@ -95,7 +95,6 @@ export class SearchPageComponent extends Component {
         return {
             searchUser: "",
             error: null,
-						user:  null
         }
     }
 
@@ -148,9 +147,8 @@ export class SearchPageComponent extends Component {
     };
 };
 
-
-
 ```
+
 
 
 This component is pretty much the main component. It handles the get requests (now properly named) and sets the user to the current state. Which I then pass as props to the ResultsPageComponent for rendering. I had to reset the state after every request. Not doing so creates an issue where It wont show another user after a request returns a 404. I admittedly dont have a great understanding of why this is, but intend to research it more.
