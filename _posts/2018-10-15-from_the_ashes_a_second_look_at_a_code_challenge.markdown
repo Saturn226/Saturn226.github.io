@@ -84,6 +84,7 @@ First off I had a little help from my [codepen.](https://codepen.io/Saturn226/)
 My codepen is like my little scratch pad. I had been practicing a lot of react snippets lately. Mostly I have been experimenting with styled-components and css-grid which I used in the new project.
 
 I created 3 components. A search component. A repos component and a results page component.
+
 ```import React, {Component} from "react";
 import styled from "styled-components"
 import {ResultsPageComponent} from "./resultPageComponent.js"
