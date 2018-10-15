@@ -1,7 +1,8 @@
 ---
 layout: post
 title:      "From the Ashes. A second look at a code challenge"
-date:       2018-10-15 17:49:06 +0000
+date:       2018-10-15 13:49:07 -0400
+permalink:  from_the_ashes_a_second_look_at_a_code_challenge
 ---
 
 
@@ -146,28 +147,7 @@ export class SearchPageComponent extends Component {
     };
 };
 
-//styling
-const SearchArea = styled.div`
-    grid-area:search;
-    `
-const Button = styled.button`
-    border-radius: 9999px;
-    background-color: #00BCE1;
-    color: white;
-    width: 100px;
-    height: 20px;
-    margin: 10px;
-    font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    ;
-`
 
-const Div = styled.div`
-    display: grid;
-    margin: 20px;
-    grid-template-areas: "search"
-                        "results";
-    grid-gap: 20px;
-   `
 
 ```
 
@@ -183,7 +163,6 @@ import ReposComponent from './reposComponent.js';
 export const ResultsPageComponent = (props) =>  {
   
 
-    //This will render an error if searchUser adds an error to the state
     if(props.error){
       return <h1>{props.error}</h1>
     }
