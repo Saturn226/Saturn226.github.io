@@ -8,7 +8,7 @@ permalink:  from_the_ashes_a_second_look_at_a_code_challenge
 
 The job hunt has been quite hard for me. Overcoming lots of anxiety, imposter syndrome and trying to convince myself that I am indeed a badass programmer is not easy. Add on top of that some of the most grueling code challenges and anyone would feel like a complete failure.
 
-Recently I was given a code challenge that wasn't quite like the others. Previous code challenges had me solving complex problems and one had me use broken drag and drop software to develop an app. This one however was actually whithin my ability.
+Recently I was given a code challenge that wasn't quite like the others. Previous code challenges had me solving complex problems and one had me use broken drag and drop software to develop an app. This one however was actually within my ability.
 
 Hit a github endpoint, and print its data.
 
