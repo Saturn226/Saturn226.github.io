@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "From the Ashes. A second look at a code challenge"
+title:      "From the Ashes: A second look at a code challenge"
 date:       2018-10-15 13:49:07 -0400
 permalink:  from_the_ashes_a_second_look_at_a_code_challenge
 ---
