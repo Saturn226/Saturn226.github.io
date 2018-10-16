@@ -12,19 +12,19 @@ Recently I was given a code challenge that wasn't quite like the others. Previou
 
 Hit a github endpoint, and print its data.
 
-I was confident. So very *confident*, just over the moon! 
+I was confident. So *very* confident, just over the moon! 
 
 It was pretty open ended. So I had many choices to make on how to do it.
 Javascript or Ruby? I could use Ruby. Bust out the Faraday gem and feel smart for doing something thats more obviously better suited for Javascript. Or...just use Javascript.
 
-VanillaJS or Use a fancy library?
+VanillaJS or use a fancy library?
 I didnt wan't to blow this. I have overly complicated things before, which led to failure. K.I.S.S (keep it simple sweetie) 
 This program should be easily extendable. What if we pair on it? The less breaking points the better. Lets keep it vanilla and I can show my knowledge of javascript as well. Sound logic! I was going to test the entire program. I had been learning how to write tests in ruby. Ill do the same in Javascript. (Also sound logic?)
 
-Lets first say, testing in Javascript and Ruby are nothing alike and I still havent figured out how to do it. That will be for another day. But I did try! Unfortunately this made my simple program even more simple.
+Lets first say, testing in Javascript and Ruby are nothing alike and I still havent figured out how to do it. That will be for another day. But I did try! Unfortunately with no tests,  my simple program was now even more simple.
 
 So I started my project the same way any great project starts. With create-react-app!
-Then deleted all the react code. This isnt a react app silly! We are keeping it simple!
+Then deleted all the react code. This isnt a react app silly! We are keeping it simple! I just love a good hot reload!
 
 ```
 import fetch from "isomorphic-fetch"
@@ -71,12 +71,13 @@ Did I mention how proud I was of this code? It worked. I was super happy! Look a
 
 ![Imgur](https://i.imgur.com/9QNE3bi.png)
 
-Okay, yea...thats pretty simple. Also look at the code. Im not even hitting the repo endpoint. I labled these functions completely wrong. Also despite testing this code and realizing there was an issue when users couldnt be found, I forgot to handle that particular problem. 
+Okay, yea...thats pretty simple. Also look at this code! Im not even hitting the repo endpoint. I labled these functions completely wrong. Also despite testing this code and realizing there was an issue when users couldnt be found, I forgot to handle that particular problem. 
 
 But it did do what it was supposed to do! I obviously had it in the bag, I am currently sitting in my cushy dev job now right?
 
 **Of Course Not**
-This code showed nothing. It showed I can fetch data and display it, but it showed nothing of my true skills and naturally they picked up on that. It was pretty gut wrenching because I made a strategic choice and it was an incredibly bad strategy. I AM a good programmer but I didnt show it that day. So I want to show off the program, I wish I submitted.
+
+This code showed nothing. It showed I can fetch data and display it, which is fundamental and important, but it showed nothing of my true skills. Naturally they picked up on that. It was pretty gut wrenching because I made a strategic choice and it was an incredibly bad strategy. I AM a good programmer but I didnt show it that day. So I want to show off the program, I wish I submitted.
 ![Imgur](https://i.imgur.com/LOpVcz5.jpg)
 
 So how did I make these changes?
@@ -257,7 +258,7 @@ When this component mounts and updates it should automatically give back the rep
 
 All of these components are styled with styled components and grid. Though grid isnt doing its job at being responsive right now. I plan to add responsiveness soon. There are probably better ways at doing styling in react and there are two different camps on whether styles belong in the component or css files. I like to experiment around.
 
-To me this app looks fantastic and I am no longer proud of my previous attempt. This one however. I am in love with how it turned out and in the wise words of a dragon ball Z villain that refuses to die. "This isn't even my final form"
+To me this app looks much better, and I am no longer proud of my previous attempt. Well, I am still proud of it. I did work hard and it is mine. This one however,  I am in love with. This is the application I wish I had submitted. One where I can show off all my potential, and in the wise words of a Dragon Ball Z villain that refuses to die,  "This isn't even my final form" ( Not an actual line from the show btw). I and my project both have a lot of room for continued growth. 
 
 One thing that I would like to add. Due to having incredible difficulty typing at the moment. I had to dictate how to write this code to a person who knows nothing about javascript. Have you ever tried to tell someone how to type an arrow function curly by curly? This has simultaneously been the most fun and pain in the ass experience I had "writing" code. It provided amazing clarity however and allowed me to think more about the hows and whys of doing certain things. 
 
